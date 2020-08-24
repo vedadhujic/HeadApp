@@ -29,5 +29,7 @@ namespace HeadApp.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<HeadApp.Models.Log> Logs { get; set; }
     }
 }
